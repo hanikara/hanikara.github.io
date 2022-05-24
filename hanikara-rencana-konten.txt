@@ -4,3 +4,4 @@ RENCANA KONTEN
     * Portrait foto
   - Post collage ig
   - Edit video
+  - Motion design
