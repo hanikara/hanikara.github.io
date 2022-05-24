@@ -1,0 +1,6 @@
+RENCANA KONTEN
+  - Edit foto
+    * Landscape foto
+    * Portrait foto
+  - Post collage ig
+  - Edit video
