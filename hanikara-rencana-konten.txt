@@ -3,6 +3,7 @@ RENCANA KONTEN
     * Landscape foto
     * Portrait foto
       ^ Lightroom
+      ^ Photoshop
   - Post collage ig
   - Edit video
     ^ Opener video
