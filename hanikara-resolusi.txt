@@ -1,4 +1,5 @@
 Edwin Hanikara - RESOLUSI
   - Belajar web development
   - Membuat personal project
-  - Menjadi frontend developer
+  - Menjadi frontend developer  
+  - Membuat website untuk bisnis
