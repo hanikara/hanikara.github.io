@@ -2,6 +2,8 @@ RENCANA KONTEN
   - Edit foto
     * Landscape foto
     * Portrait foto
+      ^ Lightroom
   - Post collage ig
   - Edit video
+    ^ Opener video
   - Motion design
