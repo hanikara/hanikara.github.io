@@ -2,9 +2,10 @@ RENCANA KONTEN
   - Edit foto
     * Landscape foto
     * Portrait foto
-      ^ Figma
+      ^ Lightroom
       ^ Photoshop
   - Post collage ig
     ^ Graphic design
   - Edit video
+    ^ Opener video
   - Motion design
