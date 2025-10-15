@@ -20,7 +20,7 @@
             <img src="/assets/images/icon.png" alt="Profile" />
             <span class="visually-hidden">(to home page)</span>
           </a>
-          <a href="" class="header__social">
+          <a href="" class="header__social" style="display: none">
             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" aria-labelledby="socialGitHub" role="img">
               <title id="socialGitHub">GitHub</title>
               <path
@@ -39,7 +39,7 @@
               />
             </svg>
           </a>
-          <a href="" class="header__social">
+          <a href="" class="header__social" style="display: none">
             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" aria-labelledby="socialLinkedIn" role="img">
               <title id="socialLinkedIn">LinkedIn</title>
               <path
@@ -60,11 +60,13 @@
         </nav>
       </div>
     </header>
-
     <main id="main">
       <section class="hero">
         <div class="wrapper hero__wrapper bottom-border">
-          <div class="hero__content">
+          <div class="lottie-container">
+            <dotlottie-wc src="https://lottie.host/aa69d733-475d-4d95-a13e-8272378df05b/SDpPwDi3Dn.lottie" autoplay loop></dotlottie-wc>
+          </div>
+          <div class="hero__content" style="display: none">
             <picture class="img-profile">
               <source media="(min-width: 62.5em)" srcset="/assets/images/foto_.jpg" />
               <source media="(min-width: 37.5em)" srcset="/assets/images/foto_.jpg" />
@@ -84,7 +86,7 @@
         </div>
       </section>
 
-      <section class="skills">
+      <section class="skills" style="display: none">
         <div class="wrapper skills__wrapper bottom-border">
           <h2 class="visually-hidden">Skills</h2>
           <div class="skills__item">
@@ -119,7 +121,7 @@
         <img class="skills__rings" src="/assets/images/pattern-rings.svg" alt="" width="530" height="129" />
       </section>
 
-      <section class="projects">
+      <section class="projects" style="display: none">
         <div class="wrapper projects__wrapper">
           <div class="projects__grid">
             <h2 class="projects__headline header-xl">Projects</h2>
@@ -228,7 +230,7 @@
         </div>
       </section>
 
-      <section id="contact" class="contact bg-less-dark">
+      <section id="contact" class="contact bg-less-dark" style="display: none">
         <div class="wrapper contact__wrapper bottom-border">
           <div class="contact__text">
             <h2 class="contact__headline header-xl">Contact</h2>
@@ -259,7 +261,7 @@
       </section>
     </main>
 
-    <footer class="footer bg-less-dark">
+    <footer class="footer bg-less-dark" style="display: none">
       <h2 class="visually-hidden">Footer</h2>
       <div class="wrapper">
         <nav class="header__nav">
@@ -308,5 +310,8 @@
         </nav>
       </div>
     </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.6/lottie.min.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.8.1/dist/dotlottie-wc.js" type="module"></script>
   </body>
 </html>

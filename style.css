@@ -1,7 +1,8 @@
 /* GLOBAL */
 
 :root {
-  --bg-body: hsl(0, 0%, 8%);
+  /* --bg-body: hsl(0, 0%, 8%); */
+  --bg-body: hsl(240, 100%, 96.1%)
   --bg-body2: hsl(0, 0%, 14%);
   --accent: rgb(2, 76, 170);
   --text1: hsl(0, 0%, 100%);
@@ -23,6 +24,7 @@
 html,
 body {
   overflow-x: hidden;
+  height: 100vh;
 }
 
 html {
@@ -40,7 +42,7 @@ body,
 input,
 textarea,
 button {
-  font-family: "Space Grotesk", sans-serif;
+  font-family: 'Space Grotesk', sans-serif;
 }
 
 body {
@@ -138,6 +140,19 @@ svg {
   max-width: var(--container);
   margin-inline: auto;
 }
+.lottie-container {
+  width: 100%;
+  height: auto;
+  /* max-width: 600px; */
+  aspect-ratio: 1 / 1; /* keeps proportions */
+}
+dotlottie-wc {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  width: 100%;
+  height: 100%;
+}
 
 /* 600px */
 @media (min-width: 768px) {
@@ -166,7 +181,8 @@ svg {
   justify-content: center;
   text-align: center;
   gap: 20px 25px;
-  background-color: #fff;
+  background-color: #ebebff;
+  /* background-color: #fff; */
   border-radius: 10px;
   padding: 10px 20px;
   align-items: center;
@@ -194,7 +210,7 @@ svg {
 }
 @media (min-width: 768px) {
   .header {
-    margin-block-start: 30px;
+    /* margin-block-start: 30px; */
     /* margin-block-end: 90px; */
   }
 
@@ -213,8 +229,8 @@ svg {
 
 @media (min-width: 1024px) {
   .header {
-    margin-block-start: 40px;
-    margin-block-end: 127px;
+    /* margin-block-start: 40px; */
+    /* margin-block-end: 127px; */
   }
 
   .header__nav {
@@ -282,7 +298,7 @@ h1 > span {
 @media (min-width: 768px) {
   .hero {
     position: relative;
-    margin-block-start: -62px;
+    /* margin-block-start: -62px; */
   }
 
   .hero__wrapper {
@@ -350,7 +366,7 @@ h1 > span {
 
 @media (min-width: 1024px) {
   .hero {
-    margin-block-start: 0px;
+    /* margin-block-start: 0px; */
   }
 
   .hero__wrapper {
@@ -587,7 +603,7 @@ h1 > span {
   }
 
   .projects__picture::after {
-    content: "";
+    content: '';
     position: absolute;
     width: 100%;
     height: 100%;
